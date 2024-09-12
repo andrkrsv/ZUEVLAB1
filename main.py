@@ -1,4 +1,4 @@
-import GreatestCommon
-
+from GreatestCommon import greatestCD
+ 
 print("Задание 1 \n")
-print(GreatestCommon.greatestcommondivisor(int(input("Напишите число: "))))
+print(greatestCD(int(input("Напишите число: "))))

@@ -1,10 +1,10 @@
-def greatestcommondivisor(number):
-    number = number << 0
+def greatestCD(number):
+    number = number<<0
     GCD = 1
     while(number&1==0):
-        number >> 1 = number 
+        number  = number >> 1
         print(f"DEBUG: Number = {number}")
-        GCD << 1 = GCD
+        GCD = GCD << 1 
         print(f"DEBUG: GCD = {GCD}")
     return GCD
     
